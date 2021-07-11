@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;500&display=swap');
+
+	body, html{
+		font-family: 'Noto Sans KR', sans-serif;
+		font-weight: 100;
+		margin: 0;
+	}
+	.h-w{
+		font-size: 50px;
+		color: navy;
+		font-weight: bold;
+		color: white;
+		margin: 0;
+	}
+	.h-b{
+		font-size: 50px;
+		color: navy;		
+		font-weight: bold;
+		color: rgb(23, 31, 70);
+		margin: 0;
+	}
+	.t-l{
+		text-align: left;
+	}
+	.t-c{
+		text-align: center;
+	}
+	.sub{
+		font-size: 25px;
+		font-weight: 500;	
+		margin: 0px auto;
+		color: rgb(69, 75, 106);
+	}
+	.navigation{
+		position: fixed;
+		height: 60px;
+		background: white;
+		box-shadow: rgb(126 133 142 / 5%) 0px 4px 10px 0px;
+		width: 100%;
+		margin: 0 auto;
+		left: 0;
+		right: 0;
+
+	}
+	.navigation ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		font-weight: 500;
+		vertical-align: middle;
+	}
+	.navigation li {
+		float: left;
+	}
+	.navigation li a, .dropbtn {
+		display: inline-block;
+		color: black;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+	.navigation li.dropdown {
+		display: inline-block;
+	}
+	.navigation .dropdown-content {
+		display: none;
+		position: absolute;
+		background-color: #f9f9f9;
+		min-width: 160px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+		padding: 12px;
+	}
+	.navigation .dropdown-content a {
+		color: black;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+		text-align: left;
+	}
+
+	.navigation .dropdown:hover .dropdown-content {
+		display: block;
+	}
+	.main{
+		/*background: linear-gradient(to bottom right, black,80%,rgb(255,77,46));*/
+		width: 1200px;
+		height: 500px;
+		padding-top: 80px; 
+		margin: 0 auto;
+	}
